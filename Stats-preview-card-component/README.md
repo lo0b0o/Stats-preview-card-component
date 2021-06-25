@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/lo0b0o/css-practice/blob/master/Stats-preview-card-component/screenshot.JPG)
 
 
 ### Links
