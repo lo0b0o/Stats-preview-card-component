@@ -8,6 +8,22 @@
 	font-size: 15px;
 }
 
+@font-face {
+	font-family: "Lexend Deca";
+	src: url("fonts/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Big Shoulders Display";
+	src: url("fonts/BigShouldersDisplay-Regular.ttf");
+}
+
+body {
+	font-family: "Lexend Deca";
+	padding: 0;
+	margin: 0;
+}
+
 .container {
 	margin: 12rem 22% auto;
 	display: flex;
@@ -17,20 +33,25 @@
 	padding: 2rem 3rem 2rem 2rem;
 }
 
-.card h1{
+.card h1 {
 	color: var(--very-light-gray);
+	font-family: "Big Shoulders Display";
+	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .card1 {
 	background-color: var(--bright-orange);
+	border-radius: 10px 0 0 10px;
 }
 
 .card2 {
 	background-color: var(--dark-cyan);
 }
 
-.card3{
+.card3 {
 	background-color: var(--very-dvrk-cyan);
+	border-radius: 0 10px 10px 0;
 }
 
 .card p {
@@ -41,7 +62,53 @@
 .card button {
 	border-radius: 3rem;
 	padding: 0.6rem 1.5rem;
+	background-color: var(--very-light-gray);
+	border: solid var(--very-light-gray) 2px;
+	margin-top:1rem;
+	margin-bottom: 1.5rem;
+}
+
+
+.card button:hover {
 	background-color: inherit;
-	border:solid var(--very-light-gray) 2px;
 	color: var(--very-light-gray);
+}
+
+.card1 button {
+	color: var(--bright-orange);
+}
+
+.card2 button {
+	color: var(--dark-cyan);
+}
+
+.card3 button {
+	color: var(--very-dvrk-cyan);
+}
+
+@media (max-width:1000px) {
+	.container {
+		flex-direction: column;
+		margin: 10rem 10% auto;
+	}
+	.card{
+		padding-top: 3rem;
+		padding-left:3rem;
+	}
+	.card1{
+		border-radius: 10px 10px 0 0;
+	}
+	.card3{
+		border-radius: 0 0 10px 10px;
+	}
+
+	.card h1{
+		margin-top: 2rem;
+	}
+	.card p {
+		margin-bottom: 1.5rem;
+	}
+	.card button {
+		font-weight: bold;
+	}
 }
