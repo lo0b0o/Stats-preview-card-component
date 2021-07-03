@@ -8,7 +8,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - ![Screenshot](https://github.com/lo0b0o/css-practice/blob/master/3-column-preview-card-component/images/screenshot.JPG)
+    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](https://github.com/lo0b0o/css-practice/blob/master/3-column-preview-card-component/images/screenshot.JPG)
 
 
 ### Links
